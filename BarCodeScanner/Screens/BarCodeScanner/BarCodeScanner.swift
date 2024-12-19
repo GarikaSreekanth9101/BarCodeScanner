@@ -20,6 +20,8 @@ struct BarCodeScanner: View {
                 Spacer().frame(height: 60)
                 Label("Scanned Barcode", systemImage: "barcode.viewfinder")
                     .font(.title)
+                Label("Testing Barcode", systemImage: "barcode.viewfinder")
+                    .font(.title)
                 Text(viewModel.statusText)
                     .bold()
                     .font(.largeTitle)
